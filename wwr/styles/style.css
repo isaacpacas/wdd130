@@ -1,111 +1,181 @@
-div {
-    max-width: 1600px;
-    
-    background-color: powderblue;
-    margin: 0 auto;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');
 
-  nav a {
-    text-align: center;
+ /* bbbbbbbbbbb*/
+
+#content {
+    max-width: 1600px;
+    background-color: rgb(227, 227, 248);
+    margin: 0 auto;
 }
+
+body {
+    background-color: #d35452; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(93, 91, 243);   
+}
+
+ /* bbbbbbbbbbb*/
+
+nav a {
+    text-align: center;
+    background-color: #5a66e7;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav a:hover {
+    background-color: #d35452;
+}
+
+/* bbbbbbbbbbb*/
 
 #hero-msg h1, #hero-msg h4{
-    text-align: center;
+    text-align: center;   
 }
+
+.home-title{
+    background-color: #5a66e7;
+    color: #ffffff;
+    font-family: Rock Salt, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4{
+    background-color: #5a66e7;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* bbbbbbbbbbb*/
 
 .button-box{
     text-align: center;
+    margin-top: 60px;
+    border-radius: 10px;
 }
+
+.book, .join {
+    background-color: #b1f07a;
+    color:#d35452;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 30px;
+}
+
+.book:hover, .join:hover{
+    background-color: #d35452;
+    color:#ffffff;
+}
+
+/* bbbbbbbbbbb*/
 
 main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+  
+.card-img {
+    border: 10px solid #d35452;
+}
+
+/* bbbbbbbbbbb*/
+
 #background {
     height: 725px;
+    background-color: #b1f07a;
+    margin-bottom: 200px;
 }
 
 
+/* bbbbbbbbbbb*/
 
-body {
-    background-color: #b1f07a; 
-}
-header {
-    background-color:rgba(205, 238, 15, 0.945);
-}
-nav a {
-    text-align: center;
-    background-color: #b1f07a;
-    color: #5a66e7;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #b1f07a;
-}
-.home-title{
-    background-color: #b1f07a;
-    color: #d35452;
-}
-h4{
-    background-color: #b1f07a;
-    color: #d35452;
-}
-
-.book, .join {
-    background-color: #b1f07a;
-    text-decoration: none;
-}
-.book:hover, .join:hover{
-    background-color: #b1f07a;
-    color: #d35452;
-}
-#background{
-    background-color: #b1f07a;
-}
 .msg{
-    background-color: #b1f07a;
+    background-color: #5a66e7;
+    padding: 30px 40px;
+    margin-top: 200px;
 }
+
 .msg h2{
-    background-color: #b1f07a;
-    color: #d35452;
+    background-color: #5a66e7;
+    color: #ffffff;
+    font-family:Rock Salt, Helvetica, sans-serif;
 }
+
 .msg p{
-    background-color: #b1f07a;
-    color: #d35452;
+    background-color: #5a66e7;
+    color: #ffffff;
+    font-family:Roboto, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
+
+/* bbbbbbbbbbb*/
 
 footer{
-    background-color: #b1f07a;
+    background-color: #5a66e7;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer a{
-    background-color: #b1f07a;
-    color: #d35452;
+    background-color: #5a66e7;
+    color: #b1f07a;
     text-decoration: none;
     font-size: 1.2em;
 }
 
 footer a:hover{
     background-color: #b1f07a;
-    color: #d35452;
+    color: #5a66e7;
     font-size: 2em;
 }
+
 footer p {
+    color: #b1f07a;
     font-size: 1.2em;
 }  
 
 footer p a:hover {
     text-decoration: underline;
 }    
+
+footer .social img {
+    padding-top: 15px;
+}
     
-
-
+/* bbbbbbbbbbb*/
+ 
 .logo{
     width: 80px;
+   padding: 20px;
+   padding-bottom: 40px;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+    
 }
 
 #hero-img{
